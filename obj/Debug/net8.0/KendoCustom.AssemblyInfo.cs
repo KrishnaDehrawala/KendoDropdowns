@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KendoCustom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fd44cf7cd908fbd35907992ce63909d84ce28b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("KendoCustom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KendoCustom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
