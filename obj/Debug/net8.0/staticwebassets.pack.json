@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\StateCityComponent.js"
     },
     {
+      "Id": "D:\\KendoCustom\\KendoCustom\\wwwroot\\js\\StateCityComponent_dynamic.js",
+      "PackagePath": "staticwebassets\\js\\StateCityComponent_dynamic.js"
+    },
+    {
       "Id": "D:\\KendoCustom\\KendoCustom\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

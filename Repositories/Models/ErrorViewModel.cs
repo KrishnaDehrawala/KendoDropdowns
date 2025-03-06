@@ -1,4 +1,4 @@
-namespace KendoCustom.Models;
+namespace KendoDropdown.Models;
 
 public class ErrorViewModel
 {

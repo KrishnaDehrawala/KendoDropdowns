@@ -1,8 +1,24 @@
+using KendoDropdown.Repositories.Implementations;
+using KendoDropdown.Repositories.Interfaces;
+using Npgsql;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddScoped<IKendoDropdownInterface, KendoDropdownImplementations>();
+builder.Services.AddScoped<NpgsqlConnection>((serviceProvider) =>
+{
+    var configuration = serviceProvider.GetRequiredService<IConfiguration>();
+    var connectionString = configuration.GetConnectionString("pgcon");
+    return new NpgsqlConnection(connectionString);
+});
+builder.Services.AddSession((options) =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

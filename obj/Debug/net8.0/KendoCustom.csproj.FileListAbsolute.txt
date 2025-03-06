@@ -58,3 +58,9 @@ D:\KendoCustom\KendoCustom\obj\Debug\net8.0\refint\KendoCustom.dll
 D:\KendoCustom\KendoCustom\obj\Debug\net8.0\KendoCustom.pdb
 D:\KendoCustom\KendoCustom\obj\Debug\net8.0\KendoCustom.genruntimeconfig.cache
 D:\KendoCustom\KendoCustom\obj\Debug\net8.0\ref\KendoCustom.dll
+D:\KendoCustom\KendoCustom\obj\Debug\net8.0\KendoCustom.csproj.AssemblyReference.cache
+D:\KendoCustom\KendoCustom\obj\Debug\net8.0\KendoCustom.sourcelink.json
+D:\KendoCustom\KendoCustom\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\KendoCustom\KendoCustom\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\KendoCustom\KendoCustom\bin\Debug\net8.0\Npgsql.dll
+D:\KendoCustom\KendoCustom\obj\Debug\net8.0\KendoCus.F87C847B.Up2Date

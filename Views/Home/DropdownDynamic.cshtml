@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Dropdown Page";
+}
+<script src="~/js/StateCityComponent_dynamic.js"></script>
+<h1>KendoDropdown</h1>
+<div id="customWidget"></div>
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: "/Home/GetStates",
+            type: "GET",
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                console.log(response);
+                var states = response;
+                var citiesByState;
+                $("#customWidget").kendoStateCityWidget({
+                    states: states, // Pass the states array
+                    cities: citiesByState,
+                    stateLabelKey: "stateName", // Use 'name' as the label for state
+                    stateValueKey: "stateId", // Use 'id' as the value for state
+                    cityLabelKey: "text", // Use 'text' as the label for city
+                    cityValueKey: "value" // Use 'value' as the value for city
+                });
+            },
+            error: function (xhr) {
+                console.log(xhr.responseText);
+            }
+        })
+    });    
+</script>

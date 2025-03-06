@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b51EUTUYRbx16WvQ+6fM3gxxTcnrK6YNtUeXjpl9rSk=",
+  "Hash": "hgYJqn8MnWXhwXStILxzIXRCCO3n8nv7NRgoBdqeww8=",
   "Source": "KendoCustom",
   "BasePath": "_content/KendoCustom",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\KendoCustom\\KendoCustom\\wwwroot\\js\\StateCityComponent_dynamic.js",
+      "SourceId": "KendoCustom",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\KendoCustom\\KendoCustom\\wwwroot\\",
+      "BasePath": "_content/KendoCustom",
+      "RelativePath": "js/StateCityComponent_dynamic.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\StateCityComponent_dynamic.js"
     },
     {
       "Identity": "D:\\KendoCustom\\KendoCustom\\wwwroot\\js\\StateCityComponent.js",

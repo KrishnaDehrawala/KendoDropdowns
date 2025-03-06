@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\KendoCustom\KendoCustom
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/KendoCustom/KendoCustom/Views/Home/DropdownDynamic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEcm9wZG93bkR5bmFtaWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/KendoCustom/KendoCustom/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
