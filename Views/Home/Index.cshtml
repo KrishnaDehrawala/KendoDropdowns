@@ -1,8 +1,42 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<script src="~/js/StateCityComponent.js"></script>
+<div id="customWidget"></div>
+<script>
+    $(document).ready(function () {
+        var states = [
+            { id: "1", name: "Gujarat" },
+            { id: "2", name: "Maharashtra" },
+            { id: "3", name: "Karnataka" }
+        ];
+        var citiesByState = {
+            "1": [
+                { value: "21", text: "Ahmedabad" },
+                { value: "22", text: "Surat" },
+                { value: "23", text: "Vadodara" },
+                { value: "24", text: "Rajkot" }
+            ],
+            "2": [
+                { value: "5", text: "Mumbai" },
+                { value: "6", text: "Pune" },
+                { value: "7", text: "Nagpur" },
+                { value: "8", text: "Nashik" }
+            ],
+            "3": [
+                { value: "9", text: "Bengaluru" },
+                { value: "10", text: "Mysuru" },
+                { value: "11", text: "Hubballi" },
+                { value: "12", text: "Mangalore" }
+            ]
+        };
+        $("#customWidget").kendoStateCityWidget({
+            states: states, // Pass the states array
+            cities: citiesByState,
+            stateLabelKey: "name", // Use 'name' as the label for state
+            stateValueKey: "id", // Use 'id' as the value for state
+            cityLabelKey: "text", // Use 'text' as the label for city
+            cityValueKey: "value" // Use 'value' as the value for city
+        });
+    });
+</script>

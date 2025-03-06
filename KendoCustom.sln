@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitKendoDropdowns", "GitKendoDropdowns.csproj", "{90749011-ADF2-6CB5-C9AF-569CBB1B1675}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KendoCustom", "KendoCustom.csproj", "{C8B3B395-AF25-8AB6-05E8-C6EC7F289E99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{90749011-ADF2-6CB5-C9AF-569CBB1B1675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90749011-ADF2-6CB5-C9AF-569CBB1B1675}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90749011-ADF2-6CB5-C9AF-569CBB1B1675}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90749011-ADF2-6CB5-C9AF-569CBB1B1675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B3B395-AF25-8AB6-05E8-C6EC7F289E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B3B395-AF25-8AB6-05E8-C6EC7F289E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B3B395-AF25-8AB6-05E8-C6EC7F289E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B3B395-AF25-8AB6-05E8-C6EC7F289E99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A495B456-55D6-4F87-9FB6-1742AD07E0C3}
+		SolutionGuid = {FCE2B51D-240C-4D1E-98C4-8069C3E01F16}
 	EndGlobalSection
 EndGlobal

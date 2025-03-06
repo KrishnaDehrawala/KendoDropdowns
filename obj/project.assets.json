@@ -190,9 +190,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\KendoCustom\\KendoCustom\\GitKendoDropdowns.csproj",
-      "projectName": "GitKendoDropdowns",
-      "projectPath": "D:\\KendoCustom\\KendoCustom\\GitKendoDropdowns.csproj",
+      "projectUniqueName": "D:\\KendoCustom\\KendoCustom\\KendoCustom.csproj",
+      "projectName": "KendoCustom",
+      "projectPath": "D:\\KendoCustom\\KendoCustom\\KendoCustom.csproj",
       "packagesPath": "C:\\Users\\ritad\\.nuget\\packages\\",
       "outputPath": "D:\\KendoCustom\\KendoCustom\\obj\\",
       "projectStyle": "PackageReference",
@@ -254,5 +254,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\KendoCustom\\KendoCustom\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
