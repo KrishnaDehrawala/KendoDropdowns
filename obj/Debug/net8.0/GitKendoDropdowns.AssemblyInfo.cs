@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GitKendoDropdowns")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e7f502f609d2b745e7f0dfc3f6c0e56d28e8ada")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2e0f914728423a629c36ff66ed9cd9d0c3b74e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("GitKendoDropdowns")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GitKendoDropdowns")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
