@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitKendoDropdowns\\GitKendoDropdowns.csproj": {}
+    "D:\\KendoCustom\\KendoCustom\\GitKendoDropdowns.csproj": {}
   },
   "projects": {
-    "D:\\GitKendoDropdowns\\GitKendoDropdowns.csproj": {
+    "D:\\KendoCustom\\KendoCustom\\GitKendoDropdowns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitKendoDropdowns\\GitKendoDropdowns.csproj",
+        "projectUniqueName": "D:\\KendoCustom\\KendoCustom\\GitKendoDropdowns.csproj",
         "projectName": "GitKendoDropdowns",
-        "projectPath": "D:\\GitKendoDropdowns\\GitKendoDropdowns.csproj",
+        "projectPath": "D:\\KendoCustom\\KendoCustom\\GitKendoDropdowns.csproj",
         "packagesPath": "C:\\Users\\ritad\\.nuget\\packages\\",
-        "outputPath": "D:\\GitKendoDropdowns\\obj\\",
+        "outputPath": "D:\\KendoCustom\\KendoCustom\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ritad\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,7 +20,8 @@
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net8.0": {

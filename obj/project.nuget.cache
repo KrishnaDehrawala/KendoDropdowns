@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8CqNKxLH4zU=",
+  "dgSpecHash": "sFPAFWauOc8=",
   "success": true,
-  "projectFilePath": "D:\\GitKendoDropdowns\\GitKendoDropdowns.csproj",
+  "projectFilePath": "D:\\KendoCustom\\KendoCustom\\GitKendoDropdowns.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ritad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\ritad\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
