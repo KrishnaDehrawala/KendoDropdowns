@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8CqNKxLH4zU=",
+  "success": true,
+  "projectFilePath": "D:\\GitKendoDropdowns\\GitKendoDropdowns.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ritad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\ritad\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\ritad\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
